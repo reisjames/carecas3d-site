@@ -1,0 +1,37 @@
+backend:
+  name: github
+  repo: SEU-USUARIO/SEU-REPOSITORIO
+  branch: main
+  # A autenticação OAuth precisa ser configurada na etapa de publicação.
+  # base_url: https://SEU-OAUTH-WORKER.workers.dev
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+locale: "pt"
+collections:
+  - name: "conteudo"
+    label: "Conteúdo do site"
+    files:
+      - name: "portfolio"
+        label: "Galeria de trabalhos"
+        file: "content/portfolio.json"
+        format: "json"
+        fields:
+          - label: "Trabalhos"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.category}}"
+            fields:
+              - { label: "Nome da peça", name: "title", widget: "string" }
+              - { label: "Descrição curta", name: "description", widget: "text" }
+              - { label: "Fotografia", name: "image", widget: "image" }
+              - { label: "Categoria", name: "category", widget: "select", options: ["Peças funcionais", "Prototipagem", "Decoração", "Personalizados", "Outros"] }
+              - { label: "Exibir no site", name: "published", widget: "boolean", default: true }
+      - name: "contato"
+        label: "Contato e apresentação"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - { label: "WhatsApp (somente números, com 55 e DDD)", name: "whatsapp", widget: "string", required: false }
+          - { label: "Texto de apresentação", name: "intro", widget: "text", required: false }
+          - { label: "Instagram (URL)", name: "instagram", widget: "string", required: false }
+          - { label: "E-mail", name: "email", widget: "string", required: false }
