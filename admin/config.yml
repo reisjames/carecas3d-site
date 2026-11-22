@@ -1,9 +1,10 @@
 backend:
   name: github
-  repo: SEU-USUARIO/SEU-REPOSITORIO
+  repo: reisjames/carecas3d-site
   branch: main
-  # A autenticação OAuth precisa ser configurada na etapa de publicação.
-  # base_url: https://SEU-OAUTH-WORKER.workers.dev
+  base_url: https://carecas3d-oauth.reisjames.workers.dev
+  auth_endpoint: /auth
+  
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 locale: "pt"
