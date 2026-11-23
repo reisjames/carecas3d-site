@@ -27,6 +27,13 @@
       "description": "Decoração natalina",
       "image": "/assets/uploads/urso-de-natal.webp",
       "category": "Decoração"
+    },
+    {
+      "published": true,
+      "title": "Sapatilha Porta Caneta",
+      "description": "O porta-canetas que todos saberão ser seu.",
+      "image": "/assets/uploads/porta_caneta_bailarina.webp",
+      "category": "Personalizados"
     }
   ]
 }
