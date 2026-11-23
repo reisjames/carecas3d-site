@@ -33,7 +33,12 @@ collections:
             fields:
               - { label: "Nome da peça", name: "title", widget: "string" }
               - { label: "Descrição curta", name: "description", widget: "text" }
-              - { label: "Fotografia", name: "image", widget: "image" }
+              - label: "Fotografia"
+              name: "image"
+              widget: "image"
+              media_library:
+                config:
+                  max_file_size: 2097152
               - { label: "Categoria", name: "category", widget: "select", options: ["Peças funcionais", "Prototipagem", "Decoração", "Personalizados", "Outros"] }
               - { label: "Exibir no site", name: "published", widget: "boolean", default: true }
       - name: "contato"
