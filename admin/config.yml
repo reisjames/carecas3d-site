@@ -7,6 +7,15 @@ backend:
   
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
+media_processing:
+  enabled: true
+  format:
+    enabled: true
+    default: webp
+  quality: 80
+  width: 1600
+  height: null
+  strip_metadata: true
 locale: "pt"
 collections:
   - name: "conteudo"
