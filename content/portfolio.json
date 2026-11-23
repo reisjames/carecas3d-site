@@ -34,6 +34,13 @@
       "description": "O porta-canetas que todos saberão ser seu.",
       "image": "/assets/uploads/porta_caneta_bailarina.webp",
       "category": "Personalizados"
+    },
+    {
+      "published": true,
+      "title": "Placa Personalizada",
+      "description": "Peça personalizada com o logotipo de sua empresa.",
+      "image": "/assets/uploads/placa_personalizada.webp",
+      "category": "Decoração"
     }
   ]
 }
