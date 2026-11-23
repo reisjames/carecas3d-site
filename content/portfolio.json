@@ -20,6 +20,13 @@
       "description": "“É inútil resistir, meu filho.”",
       "image": "/assets/uploads/darthvader.webp",
       "category": "Decoração"
+    },
+    {
+      "published": true,
+      "title": "Urso de Natal",
+      "description": "Decoração natalina",
+      "image": "/assets/uploads/urso-de-natal.webp",
+      "category": "Decoração"
     }
   ]
 }
