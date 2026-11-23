@@ -13,6 +13,13 @@
       "title": "Apoio pequeno para celular ",
       "description": "Apoio pequeno para celular, que você pode levar com você.",
       "category": "Peças funcionais"
+    },
+    {
+      "published": true,
+      "title": "Mini Darth Vader",
+      "description": "“É inútil resistir, meu filho.”",
+      "image": "/assets/uploads/darthvader.webp",
+      "category": "Decoração"
     }
   ]
 }
